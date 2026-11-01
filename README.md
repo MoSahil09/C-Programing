@@ -1,2 +1,5 @@
 # C-Programing
-In this repository I'll learn and practice C language as my first programing language.
+
+### What is Programing ?
+Programing is a process in which, we tell a machine to perform a specific task or solve a pirticular problem, by creating a sequence of step wise instruction.
+
