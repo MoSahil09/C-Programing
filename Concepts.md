@@ -21,3 +21,28 @@ int main() {
 • *printf("This is Mo Sahil...");* — Prints the text This is Mo Sahil... to the console.\
 • *return 0;* — Ends the *main()* function and indicates successful program execution to the operating system.\
 • *}* — Marks the end of the *main()* function's body.
+
+### Variables :
+Variables are the container that store data of some specific datatype.\
+**Rules for variable**\
+• Variables are case sensitive.\
+• First symbol ia an alphabet or ' _ '\
+• No blank space.\
+• No Other symbol than ' _ ' \
+EXAMPLE : A = 10, Fact = true, string_name = Hello.
+
+### Datatypes :
+In C language, data types define what type of data a variable can store. \
+• **int** (Intiger), < 4 byte >\
+• **char** (Character), < 1 byte >\
+• **float** (Decimal Number), < 4 byte >\
+• **double** (Long Decimal Number), < 8 byte >\
+• **bool** (true/false), < 1 byte >
+
+**Combined Example** \
+• int num1 = 10;\
+• float num2 = 10.25;\
+• double PI = 3.141279675347124;\
+• char grade = 'A';\
+• bool yes = true;
+
