@@ -61,3 +61,76 @@ int main() {
 A constant in C is a fixed value that does not change during the execution of a program. \
 • Used to store a constant value which is use in program repeatedly. \
 EXAMPLE : π, e, etc.
+
+### Operators in C :
+
+**i. Arithmetic Operators :**
+These operators perform mathematical calculations.
+
+| Operator | Meaning | Example |
+| --- | --- | --- |
+| + | Addition | a + b |
+| - | Subtraction | a - b |
+| * | Multiplication | a * b |
+| / | Division | a / b |
+| % | Display Reminder | a % b |
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a = 10, b = 3;
+    printf("Addition = %d\n", a+b);
+    printf("Subtraction = %d\n", a-b);
+    printf("Multiplication = %d\n", a*b);
+    printf("Division = %d\n", a/b);
+    printf("Modulus = %d\n", a%b);
+    return 0;
+}
+```
+
+**ii. Relational Operators :** It is used to compare two things.
+
+| Operator | Meaning | Example |
+| --- | --- | --- |
+| == | Equal to | a == b |
+| != | Not Equal to | a != b |
+| > | Greater than | a > b |
+| < | Less than | a < b |
+| >= | Greater & Equal to | a >= b |
+| <= | Less & Equal to | a <= b |
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a = 10, b = 5;
+    printf("%d\n", a==b);
+    printf("%d\n", a!=b);
+    printf("%d\n", a>b);
+    printf("%d\n", a<b);
+    printf("%d\n", a>=b);
+    printf("%d\n", a<=b);
+    return 0;
+}
+```
+
+**iii. Logical Operators :**
+
+| Operator | Meaning | Example |
+|---|---|---|
+| && | Logical AND | a && b |
+| ll | Logical OR | a ll b |
+| ! | Logical NOT | a != b |
+
+```c
+#include <stdio.h>
+int main()
+{
+    int a = 10, b = 5;
+    printf("%d\n", a>5 && b<10);
+    printf("%d\n", a>15 || b<10);
+    printf("%d\n", !(a>5));
+    return 0;
+}
+```
