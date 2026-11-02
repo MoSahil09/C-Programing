@@ -46,3 +46,18 @@ In C language, data types define what type of data a variable can store. \
 • char grade = 'A';\
 • bool yes = true;
 
+### How to use Variable in C :
+```c
+#include <stdio.h>
+int main() {
+  int num1 = 10;
+  printf("The Number Stored in num1 is “%d”\n", num1);
+    return 0;
+}
+```
+*OUTPUT : The Number Stored in **num1** is “10”*
+
+### Constant in C :
+A constant in C is a fixed value that does not change during the execution of a program. \
+• Used to store a constant value which is use in program repeatedly. \
+EXAMPLE : π, e, etc.
