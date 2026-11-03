@@ -24,6 +24,20 @@ int main() {
 • *return 0;* — Ends the *main()* function and indicates successful program execution to the operating system.\
 • *}* — Marks the end of the *main()* function's body.
 
+### User input :
+We take input in C using function called **scanf()**
+```c
+#include <stdio.h>
+int main() {
+  
+  int var = 10;
+  scanf("%d", &var);
+  printf("%d\n", var);
+  
+    return 0;
+}
+```
+
 ## 2. VARIABLES AND DATATYPES
 
 ### Variables :
