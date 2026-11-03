@@ -1,5 +1,7 @@
 # C-Programing
 
+## 1. BASICS OF C
+
 ### What is Programing ?
 Programing is a process in which, we tell a machine to perform a specific task or solve a pirticular problem, by creating a sequence of step wise instruction. \
 • But a computer only understand a sequence of **Binaly digit** (the 0's and 1's), so, we have a intermediate called **Compiler** (It translate Human readable source code to computer understandable Binary code).
@@ -21,6 +23,8 @@ int main() {
 • *printf("This is Mo Sahil...");* — Prints the text This is Mo Sahil... to the console.\
 • *return 0;* — Ends the *main()* function and indicates successful program execution to the operating system.\
 • *}* — Marks the end of the *main()* function's body.
+
+## 2. VARIABLES AND DATATYPES
 
 ### Variables :
 Variables are the container that store data of some specific datatype.\
@@ -62,9 +66,9 @@ A constant in C is a fixed value that does not change during the execution of a 
 • Used to store a constant value which is use in program repeatedly. \
 EXAMPLE : π, e, etc.
 
-### Operators in C :
+## 3. OPERATORS
 
-**i. Arithmetic Operators :**
+### i. Arithmetic Operators :
 These operators perform mathematical calculations.
 
 | Operator | Meaning | Example |
@@ -89,7 +93,8 @@ int main()
 }
 ```
 
-**ii. Relational Operators :** It is used to compare two things.
+### ii. Relational Operators :
+It is used to compare two things.
 
 | Operator | Meaning | Example |
 | --- | --- | --- |
@@ -115,7 +120,7 @@ int main()
 }
 ```
 
-**iii. Logical Operators :**
+### iii. Logical Operators :
 
 | Operator | Meaning | Example |
 |---|---|---|
