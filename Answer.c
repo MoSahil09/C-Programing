@@ -22,3 +22,26 @@ int main() {
   
     return 0;
 }
+
+// Q2. Write a Program to Calculate the Area and Circumference of a Circle by taking Radius from User.
+
+#include <stdio.h>
+int main() {
+  
+  // Variable declaration,
+  float radius, area, circumference;
+  const float PI = 3.14;
+
+  // User input,
+  printf("Enter the Radius of Your Circle : ");
+  scanf("%f", &radius);
+
+  // Operation or Calculations,
+  area = PI*radius*radius;
+  circumference = 2*PI*radius;
+
+  // Final print or output,
+  printf("\nThe Area of Your Circle is : %.2f units.\n", area);
+  printf("The circumference of Your Circle is : %.2f units.\n", circumference);
+    return 0;
+}
