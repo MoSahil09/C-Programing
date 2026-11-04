@@ -8,7 +8,7 @@ Sol :\
 • print sum and product.
 
 
-**Write a Program to Calculate the Area and Circumference of a Circle by taking Radius from User.**
+**Q2. Write a Program to Calculate the Area and Circumference of a Circle by taking Radius from User.**
 
 Sol :\
 • Declare input variable (say, radius, area and circumference).\
