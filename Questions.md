@@ -16,3 +16,13 @@ Sol :\
 • Take input using *scanf()* and store these values on defined/declared variables.\
 • Do, *area = PI*radius*radius* and *circumference = 2*PI*radius*.\
 • print Area and Circumference.
+
+**Q3. A person has some currency notes of different denominations, such as ₹1, ₹2, ₹10, ₹20, ₹50, ₹100 and ₹500.
+Write a program that takes the number of notes of each denomination from the user and calculates the total amount of money.**
+
+Sol : \
+• Declare variable to store number of currency of each category. \
+• Take input as Total number of Currency of different categories.\
+• Perform calculation saparately to get total amount in different categories of currency.\
+• Sum all integrated amount and store it in a variable like *total_amount*.\
+• Print *total_amount* .
